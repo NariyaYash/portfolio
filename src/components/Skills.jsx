@@ -1,4 +1,5 @@
 import React from 'react'
+import Marquee from 'react-fast-marquee'
 import imghero from '../assets/heroBgImageAdam.png'
 
 function Skills() {
@@ -39,7 +40,41 @@ function Skills() {
           <section data-aos="fade-left"
             data-aos-delay="300">
             {/* Skills Pills */}
-            <div className="flex flex-wrap justify-center gap-3 text-sm">
+            <div className="w-full overflow-x-hidden">
+              <Marquee speed={100} gradient={false} className="w-full">
+                {/* {[img1, img2, axis, icic, hdfc, iffco, chola, aditya].map((img, index) => (
+                  <div
+                    key={index}
+                    className="mx-4 flex items-center justify-center min-w-[120px] bg-gray-100 p-3 border border-blue-200 rounded-xl shadow-sm hover:shadow-md transition duration-300"
+                  >
+                    <img
+                      src={img}
+                      alt={`Partner ${index + 1}`}
+                      className="h-14 w-32 object-contain hover:scale-105 transition-transform duration-300"
+                    />
+                  </div>
+                ))} */}
+                <div className="flex flex-wrap justify-center gap-3 text-sm">
+                  {[
+                    "Angular",
+                    "React",
+                    "JavaScript",
+                    "Tailwind CSS",
+                    "REST APIs",
+                    "JWT Auth",
+                    "Git & GitHub",
+                  ].map((skill) => (
+                    <span
+                      key={skill}
+                      className="px-4 py-2 border border-purple-400/40 rounded-full text-white hover:bg-purple-400/10 transition"
+                    >
+                      {skill}
+                    </span>
+                  ))}
+                </div>
+              </Marquee>
+            </div>
+            {/* <div className="flex flex-wrap justify-center gap-3 text-sm">
               {[
                 "Angular",
                 "React",
@@ -56,18 +91,18 @@ function Skills() {
                   {skill}
                 </span>
               ))}
-            </div>
+            </div> */}
           </section>
-        </div>
+        </div >
         {/* Decorative Image */}
-        <img
+        < img
           src={imghero}
           alt="right picture"
           className="absolute z-10 right-2 top-2 sm:right-16 sm:top-32 transform rotate-12 w-24 h-auto sm:w-32 opacity-70"
         />
-      </div>
+      </div >
 
-    </section>
+    </section >
 
   )
 }

@@ -29,10 +29,10 @@ function Navbar() {
                         </div>))}
                 </nav>
                 
-                <button className='md:inline-flex hidden text-white border-white border-2 py-2 px-6 focus:outline-none hover:bg-purple-800 rounded-full text-lg'>
+                <a href="#contact" className='md:inline-flex hidden text-white border-white border-2 py-2 px-6 focus:outline-none hover:bg-purple-800 rounded-full text-lg'>
                     {" "}
                     Contact{" "}
-                </button>
+                </a>
 
                 {/* mobile navigation */}
                 <div className={`${isOpen ? 'block' : 'hidden'} md:hidden bg-[#801b9c] absolute top-0 left-0 w-full h-screen flex flex-col items-center justify-center space-y-8 pt-16`}>

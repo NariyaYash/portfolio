@@ -26,7 +26,7 @@ function Hero() {
                                 Frontend Developer
                             </h2>
                             <p className='max-w-2xl text-base sm:text-lg text-gray-200  lg:text-lg mb-6'>
-                                Frontend Developer with 2 years of experience building scalable,
+                                Frontend Developer with 1+ years of experience building scalable,
                                 responsive, and high-performance web applications using Angular and React.
                                 Passionate about clean UI, reusable components, and seamless user experience.
                             </p>
@@ -41,11 +41,11 @@ function Hero() {
                                     <img src={instagram} className='w-11 h-11 cursor-pointer'/>
                                 </a>
                             </div>
-                            <a href={cv} download>
+                            {/* <a href={cv} download>
                                 <button className='text-white cursor-pointer border-white border-2 py-2 px-6 focus:outline-none hover:bg-purple-800  text-lg'>
                                     Download CV
                                 </button>
-                            </a>
+                            </a> */}
                         </div>
                         <figure
                             data-aos="fade-up"

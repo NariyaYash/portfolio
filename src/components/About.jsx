@@ -11,39 +11,6 @@ function About() {
                         className='transform -translate-y-0 z-30 rounded-xl shadow-amber-50'
                     />
                 </figure>
-                {/* <article
-                    className="text-center lg:text-center relative"
-                    data-aos="fade-left"
-                    data-aos-delay="250"
-                >
-                    <div className="absolute z-0 w-40 h-40 sm:w-60 sm:h-60 bg-[#cd3cf5] rounded-full blur-3xl opacity-50 -top-5 left-40"></div>
-
-                    <header className="relative z-10 mb-6">
-                        <h1 className="text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-bold text-white">
-                            About Me
-                        </h1>
-                    </header>
-
-                    <div className="relative z-10 text-gray-300 text-base sm:text-lg md:text-xl leading-relaxed space-y-4">
-                        <p>
-                            I am a Frontend Developer with over 2 years of professional experience
-                            specializing in Angular and React. I have worked on building modern,
-                            responsive, and user-friendly web applications for real-world business needs.
-                        </p>
-
-                        <p>
-                            I focus on writing clean, maintainable code and creating reusable UI components
-                            that improve performance and reduce development time. I enjoy transforming
-                            complex requirements into intuitive and engaging user interfaces.
-                        </p>
-
-                        <p>
-                            I have experience working with REST APIs, authentication, third-party
-                            integrations, and modern UI libraries. I am always eager to learn new
-                            technologies and improve my skills as a developer.
-                        </p>
-                    </div>
-                </article> */}
                 <article className="relative text-center" data-aos="fade-left"
                     data-aos-delay="250">
                     <h2 className="text-4xl md:text-5xl font-bold text-white mb-8">
@@ -53,7 +20,7 @@ function About() {
                     <div className="max-w-3xl mx-auto text-gray-300 text-base sm:text-lg leading-relaxed space-y-6">
                         <p>
                             I’m a <span className="text-white font-medium">Frontend Developer</span> with
-                            <span className="text-[#cd3cf5] font-semibold"> 2+ years of experience</span> building
+                            <span className="text-[#cd3cf5] font-semibold"> 1+ years of experience</span> building
                             modern, responsive, and high-performance web applications using
                             <span className="text-white font-medium"> Angular and React</span>.
                         </p>

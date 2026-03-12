@@ -5,6 +5,7 @@ import About from "./components/About"
 import Skills from "./components/Skills"
 import MyProjects from "./components/MyProjects"
 import Footer from "./components/Footer"
+import Contact from "./components/Contact"
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <About />
         <Skills />
         <MyProjects />
+        {/* <Contact/> */}
         <Footer />  
       </main>
     </>

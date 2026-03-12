@@ -1,12 +1,12 @@
 import React from 'react'
 import cover_mitra from '../assets/projects_img/cover_mitra.png'
 import forex_traders from '../assets/projects_img/tft.png'
+import chat_with_ai from '../assets/projects_img/chat_with_ai.png'
 
 
 const ProjectCard = ({ image, title, description, tech, link }) => {
   return (
     <article className="relative max-w-sm bg-gray-800 rounded-xl overflow-hidden shadow-lg group">
-
       {/* Purple Glow */}
       <div className="absolute z-0 w-40 h-40 sm:w-60 sm:h-60 bg-[#cd3cf5] rounded-full blur-3xl opacity-40 -top-5 left-10"></div>
 
@@ -65,17 +65,31 @@ function MyProjects() {
       image: cover_mitra,
       title: "COVER MITRA",
       description:
-        "A modern and responsive personal portfolio showcasing skills, projects, and experience with smooth animations.",
-      tech: ["React", "Tailwind CSS", "AOS"],
+        "An insurance management web application focused on clean UI, reusable components, and REST API integration.",
+      tech: ["React", "Tailwind CSS", "React-icons", "react-router-dom", "react-hook-form"],
       link: "https://cover-mitra.vercel.app/",
     },
     {
       image: forex_traders,
       title: "TOP FOREX TRADER",
-      description:
-        "An insurance management web application focused on clean UI, reusable components, and REST API integration.",
-      tech: ["Angular", "Node js", "REST API" ],
+      description:(
+          <>
+            Developed a secure business management platform featuring <strong>JWT authentication, admin/employee panels, Excel export </strong>for reports, efficient employee management, and dynamic forms.
+          </>
+        ),
+      tech: ["Angular", "Node js", "REST API", "JWT-auth", "Excel export"],
       link: "https://hiringtraders.com/adminLogin",
+    },
+    {
+      image: chat_with_ai,
+      title: "CHAT WITH AI",
+      description: (
+        <>
+          Developed an <strong>AI chat application</strong> using <strong>Next.js</strong> that enables users to interact with an AI agent in real time. Integrated <strong>Gemini 2.5 Flash Lite from Google Generative AI </strong>to generate responses, focusing on smooth and natural general conversational interactions through a responsive web interface.
+        </>
+      ),
+      tech: ["Next JS", "REST API", "Google Generative AI (Gemini 2.5 Flash Lite)"],
+      link: "https://chat-with-ai-tau.vercel.app/",
     },
   ];
 
